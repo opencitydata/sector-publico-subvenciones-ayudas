@@ -67,6 +67,9 @@
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "preferredNamespaceUri" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
     }
