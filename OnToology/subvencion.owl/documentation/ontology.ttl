@@ -11,6 +11,7 @@
                                                                           <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
                                                                           <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/date> "2015-03-20"^^xsd:dateTime ;
+                                                                          <http://purl.org/dc/elements/1.1/description> "Este vocabulario se utiliza para la descripción de datos relacionados con subvenciones concedidas por un municipio. Esta ontología podrá sufrir cambios hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella."^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuestos"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio"@es ;
