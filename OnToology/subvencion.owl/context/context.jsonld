@@ -1,7 +1,15 @@
 {
   "@context" : {
+    "tipoProcedimiento" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoProcedimiento",
+      "@type" : "@id"
+    },
+    "nominativa" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#nominativa"
+    },
     "basesReguladoras" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#basesReguladoras"
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#basesReguladoras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
@@ -22,6 +30,9 @@
     },
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
     },
     "servicio" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio",
@@ -74,8 +85,8 @@
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
-    "date" : {
-      "@id" : "http://purl.org/dc/elements/1.1/date"
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"

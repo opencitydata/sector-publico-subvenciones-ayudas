@@ -1,4 +1,4 @@
-<h2  id="crossreference" class="list">Cross reference for Subvencion classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<html><h2 id="crossreference" class="list">Cross reference for Subvencion classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 This section provides details for each class and property defined by Subvencion.
 <div id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
@@ -29,7 +29,9 @@ This section provides details for each class and property defined by Subvencion.
          <dd>
             <a href="#adjudicatario"
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario">adjudicatario</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#entidadFinanciadora"
+            <sup class="type-op" title="object property">op</sup>, <a href="#basesReguladoras"
+               title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#basesReguladoras">bases reguladoras</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#entidadFinanciadora"
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora">entidad  financiadora</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#fechaAdjudicacion"
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion">fecha de adjudicación</a>
@@ -41,6 +43,8 @@ This section provides details for each class and property defined by Subvencion.
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio">servicio</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#tipoInstrumento"
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoInstrumento">tipo de instrumento</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#tipoProcedimiento"
+               title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoProcedimiento">tipo de procedimiento</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#area"
                title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area">área</a>
             <sup class="type-op" title="object property">op</sup>
@@ -72,6 +76,10 @@ This section provides details for each class and property defined by Subvencion.
             title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoInstrumento">tipo de instrumento</a>
       </li>
       <li>
+         <a href="#tipoProcedimiento"
+            title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoProcedimiento">tipo de procedimiento</a>
+      </li>
+      <li>
          <a href="#area"
             title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area">área</a>
       </li>
@@ -84,7 +92,7 @@ This section provides details for each class and property defined by Subvencion.
       <p>
          <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario</p>
       <div class="comment">
-         <span class="markdown">Propiedad que identifica al adjudicatario de una subvención. No se especifica su rango, pues puede ser una persona o una organización. Es posible que en el futuro se especifique un rango específico (por ejemplo, org:Organization de la W3C Organization Ontology).</span>
+         <span class="markdown">Propiedad que identifica al adjudicatario de una subvención. No se especifica su rango, pues puede ser una persona o una organización. Es posible que en el futuro se especifique un rango específico (por ejemplo, org:Organization de la W3C Organization Ontology o foaf:Person de la FOAF Ontology).</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -93,6 +101,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -120,6 +130,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -168,6 +180,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -200,6 +214,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -216,6 +232,40 @@ This section provides details for each class and property defined by Subvencion.
                <span class="logic">value</span> 
                <a href="#http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento"
                   title="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento">tipo instrumento</a>)</dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tipoProcedimiento">
+      <h3>tipo de procedimiento<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoProcedimiento</p>
+      <div class="comment">
+         <span class="markdown">Tipo de procedimiento por el cual se realiza la subvención.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Subvencion"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion">Subvención</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> (<a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">in scheme</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">value</span> 
+               <span class="dotted"
+                     title="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-procedimiento">tipo procedimiento</span>)</dd>
          </dl>
       </div>
    </div>
@@ -236,6 +286,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -270,6 +322,10 @@ This section provides details for each class and property defined by Subvencion.
          <a href="#lineaFinanciacion"
             title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion">línea de financiación</a>
       </li>
+      <li>
+         <a href="#nominativa"
+            title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#nominativa">nominativa</a>
+      </li>
    </ul>
    <div class="entity" id="basesReguladoras">
       <h3>bases reguladoras<sup class="type-dp" title="data property">dp</sup>
@@ -287,6 +343,20 @@ This section provides details for each class and property defined by Subvencion.
             <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion">http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion</a>
          </dd>
       </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Subvencion"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion">Subvención</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="fechaAdjudicacion">
       <h3>fecha de adjudicación<sup class="type-dp" title="data property">dp</sup>
@@ -305,6 +375,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -336,6 +408,8 @@ This section provides details for each class and property defined by Subvencion.
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -381,6 +455,21 @@ This section provides details for each class and property defined by Subvencion.
          </dl>
       </div>
    </div>
+   <div class="entity" id="nominativa">
+      <h3>nominativa<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#nominativa</p>
+      <div class="comment">
+         <span class="markdown">Indica si una subvención está prevista nominativamente en el Presupuesto General del Ayuntamiento.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion</dd>
+      </dl>
+   </div>
 </div><div id="namedindividuals">
    <h3 id="namedindividuals" class="list">Named Individuals</h3>
    <ul class="hlist">
@@ -423,3 +512,4 @@ This section provides details for each class and property defined by Subvencion.
 <sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
+</html>
